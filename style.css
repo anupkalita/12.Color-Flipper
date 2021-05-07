@@ -84,4 +84,8 @@ main h1{
     nav h3, nav a{
         font-size: 0.8rem;
     }
+
+    main h1, btn{
+        font-size: 0.8rem;
+    }
   }
