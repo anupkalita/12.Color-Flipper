@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Original Surfer', cursive;
+    letter-spacing: 0.3rem;
+
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* nav section */
+nav{
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+nav h3, main span{
+    color: #49A6E9;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #000;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #49A6E9;
+}
+
+/* main section */
+main{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main h1{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#btn{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background: transparent;
+}
+
+#btn:hover{
+    background: #000;
+    color: #fff;
+    transition: background 0.7s;
+}
+
+@media screen and (max-width: 400px) {
+    nav h3, nav a{
+        font-size: 0.8rem;
+    }
+  }
